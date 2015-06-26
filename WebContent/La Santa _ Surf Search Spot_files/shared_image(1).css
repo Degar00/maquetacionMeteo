@@ -1,0 +1,128 @@
+/* Style for shared images */
+
+.modalDialog {	
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.8);
+	z-index: 99999;
+	opacity: 0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+
+.modalDialog:target {
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.modalDialog>div {
+	width: 400px;
+	position: relative;
+	margin: 4% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #DDD);
+	background: -webkit-linear-gradient(#fff, #DDD);
+	background: -o-linear-gradient(#fff, #DDD);
+}
+
+.modalDialog .close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.modalDialog .close:hover {
+	background: #00d9ff;
+}
+
+#holder {
+	border: 10px dashed #ccc;
+	width: 300px;
+	min-height: 200px;
+	height:200px
+	margin: 30px auto;
+}
+
+#holder.hover {
+	border: 10px dashed #0c0;
+}
+
+#holder img {
+	display: block;
+	margin: 10px auto;
+}
+
+#holder p {
+	margin: 10px;
+	font-size: 14px;
+}
+
+progress {
+	width: 100%;
+}
+
+progress:after {
+	content: '%';
+}
+
+.fail {
+	background: #c00;
+	padding: 2px;
+	color: #fff;
+}
+
+.hidden {
+	display: none !important;
+}
+
+
+.modalDialog input, .modalDialog textarea { width:100%;}
+.modalDialog h1{ 
+	color:#21759B;
+	margin: 1em 0 0.6em 0;
+	font-size: 1.6em;
+	font-weight: 300;	
+}
+.modalDialog p { margin-bottom:0.5em;}
+.modalDialog input[type="file"]{ margin-bottom:1.2em;}
+
+#content_loader{ 
+	margin:0 auto;
+	background: transparent;
+}
+
+
+@media (max-width: 460px) {
+	.modalDialog>div  {		
+		width: 80%;  
+		margin: 4% 2% 1% 7%;
+	}
+	
+	#holder {
+		border: 2px dashed #ccc;
+		width: 50px;
+		min-height: 50px;  
+	}
+	
+	.modalDialog h1 { font-size:1em; }

@@ -1,0 +1,10 @@
+#wpca-box { padding: 25px 0; }
+#wpca-box .wpca-wrapper { padding: 0 15px; }
+@media all and (max-width: 360px){
+	#wpca-message { margin-bottom: 15px; }
+}
+@media all and (min-width: 361px){
+	#wpca-message { float: left; width: 55%; }
+	#wpca-ok { float: left; }
+}
+#wpca-ok a { display: block; float: left; padding: 7px 35px; text-decoration: none; }
