@@ -1,0 +1,52 @@
+/*   
+	version:  1.0
+	author:   David Garcia
+	date: 	  20150626
+		
+*/
+
+
+/******************************************************
+				Pestañas
+*******************************************************/
+
+ul.tabs {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.tabs li {
+	border: gray solid 1px;
+	border-bottom: none;
+	float: left;
+	margin: 0 .25em 0 0;
+	padding: .25em .5em;
+}
+
+ul.tabs li a {
+	color: gray;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+ul.tabs li.active {
+	background: gray;
+}
+
+ul.tabs li.active a {
+	color: white;
+}
+
+.clr {
+  clear: both;
+}
+
+
+/******************************************************
+				Prevision
+*******************************************************/
+
+.resumen_dia{
+	background-color: #D2EBF6;
+}
