@@ -5,48 +5,227 @@
 		
 */
 
-
 /******************************************************
 				Pestañas
 *******************************************************/
 
-ul.tabs {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-
-ul.tabs li {
-	border: gray solid 1px;
-	border-bottom: none;
-	float: left;
-	margin: 0 .25em 0 0;
-	padding: .25em .5em;
-}
-
-ul.tabs li a {
-	color: gray;
-	font-weight: bold;
-	text-decoration: none;
-}
-
-ul.tabs li.active {
-	background: gray;
-}
-
-ul.tabs li.active a {
-	color: white;
-}
-
-.clr {
-  clear: both;
-}
-
-
 /******************************************************
 				Prevision
 *******************************************************/
+.previ_cabecera {
+	background-color: #0D7A9A;
+	color: #fff;
+	min-height: 25px;
+	text-align: center;
+	padding: 1% 0;
+}
 
-.resumen_dia{
+.previ_cabecera div {
+	display: inline;
+	font-weight: 700;
+	font-size: 1.2em;
+	text-align: left;
+}
+
+#previ_cabecera_sup {
+	display: block;
+	width: 100%;
+	margin-bottom: 1%;
+}
+
+#txt_previ_hora {
+	margin-left: 4%;
+}
+
+#txt_previ_olas {
+	margin-left: 16%;
+}
+
+#txt_previ_marea {
+	margin-left: 12%;
+}
+
+#txt_previ_viento {
+	margin-left: 2.5%;
+}
+
+#txt_previ_tiempo {
+	margin-left: 3.5%;
+}
+
+#txt_previ_rating {
+	margin-left: 2%;
+}
+
+#previ_cabecera_sub {
+	display: block;
+	padding-left: 14%;
+	padding-right: 26%;
+	padding-left: 14%;
+}
+
+#previ_cabecera_sub div {
+	font-size: 1em;
+	font-weight: 300;
+}
+
+#txt_previ_altura {
+	margin-left: 5%
+}
+
+#txt_previ_direccion_ola {
+	margin-left: 5%
+}
+
+#txt_previ_periodo {
+	margin-left: 3%
+}
+
+#txt_previ_direccion_viento {
+	margin-left: 15%
+}
+
+#txt_previ_fuerza {
+	margin-left: 1.5%
+}
+
+.previ_resumen {
+	width: 100%;
 	background-color: #D2EBF6;
+	color: #fff;
+	height: 100px;
+	background-color: #D2EBF6;
+	border-bottom: 2px solid #eee;
+}
+
+.previ_resumen div {
+	height: 100px;
+	display: inline-block;
+	font-weight: 400;
+	font-size: 1.3em;
+	vertical-align: middle;
+	padding: 0;
+	color: #434041;
+	display: inline-block;
+	border-bottom: 2px solid #eee;
+}
+
+.previ_resumen img {
+	max-width: 2em;
+	vertical-align: middle;
+	display: block;
+	margin: 10% auto;
+}
+
+.previ_resumen span {
+	display: inline-block;
+	font-size: 0.7em;
+	font-weight: 300;
+}
+
+.previ_mas {
+	width: 5%;
+	padding: 2.2em .5em !important;
+}
+
+.previ_expand {
+	width: 1em !important;
+}
+
+.previ_hora {
+	width: 8%;
+	background-color: #fff !important;
+	padding: 2.2em 0 !important;
+}
+
+.previ_hora span {
+	text-align: center;
+	display: block;
+	font-size: 1em;
+}
+
+.previ_olas {
+	text-align: center;
+	width: 34%;
+}
+
+.previ_olas div {
+	width: 31%;
+	padding: 0 !important;
+}
+
+.sp_periodo_ola {
+	padding-top: 1.3em;
+	display: inline-block !important;
+	font-size: 1.2em !important;
+	font-weight: 500 !important;
+}
+
+.previ_marea {
+	width: 7%;
+	background-color: #fff !important;
+}
+
+.previ_marea img {
+	margin-top: 25px;
+	max-width: 2.6em;
+}
+
+.previ_viento {
+	width: 18%;
+	text-align: center;
+}
+
+.previ_viento div {
+	width: 47%;
+	padding: 0 !important;
+}
+
+.previ_viento img {
+	max-width: 2em;
+}
+
+.previ_tiempo {
+	width: 7%;
+	background-color: #fff !important;
+	padding: 1.6em 0 !important;
+}
+
+.previ_tiempo span {
+	text-align: center;
+	display: block;
+	font-size: 1em;
+}
+
+.previ_meteo {
+	margin-bottom: 0.5em
+}
+
+.previ_rating {
+	width: 17%;
+}
+
+.previ_rating span {
+	text-align: center;
+	margin-top: .9em;
+	width: 100%;
+	font-size: 2em;
+}
+
+.cnt_previ_detalle {
+	padding: .5%;
+	overflow: auto;
+	max-height: 206px;
+	margin: 0.5%;
+	margin-left: 4%;
+	border: solid 1px #21759b;
+	background-color: #21759b;
+}
+
+
+.cnt_previ_detalle li:nth-child(even)>div:nth-child(odd) {
+	background-color: rgb(186, 186, 186) !important;
+}
+.cnt_previ_detalle li:nth-child(odd)>div:nth-child(odd) {
+	background-color: #9CD1E8; !important;
 }
