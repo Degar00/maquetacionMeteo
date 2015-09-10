@@ -309,8 +309,18 @@ img#wpstats {
 	src="./La Santa _ Surf Search Spot_files/stats.js"></script>
 <script type="text/javascript" charset="UTF-8"
 	src="./La Santa _ Surf Search Spot_files/controls.js"></script>
-	
-<link rel="stylesheet" type="text/css" href="./La Santa _ Surf Search Spot_files/prevision.css">
+
+<link rel="stylesheet" type="text/css"
+	href="./La Santa _ Surf Search Spot_files/prevision.css">
+
+<script
+	src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script
+	src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.2/raphael-min.js"></script>
+<script src="js/morris.js-0.5.1/morris.js"></script>
+
+<link rel="stylesheet" href="js/morris.js-0.5.1/morris.css">
+<script src="js/Chart.js/Chart.js"></script>
 </head>
 
 <body
@@ -622,7 +632,7 @@ img#wpstats {
 
 
 
-
+<!--
 				<h4>
 					Descripción <span class="actualizacion"><b>Última
 							actualización </b>[ &nbsp;2014-09-30 ]</span>
@@ -673,9 +683,9 @@ img#wpstats {
 						<p>&nbsp;</p>
 					</div>
 				</div>
+ -->
 
-
-				<!-- Imagenes -->
+				<!-- Imagenes 
 				<section class="grid colA">
 					<h4 class="widget-title">
 						<a
@@ -840,11 +850,11 @@ img#wpstats {
 								rel="4">5</a><a class="nivo-control active" rel="5">6</a>
 						</div>
 					</div>
-					<!--<div class="slider imageGallery">	-->
+					<!--<div class="slider imageGallery">	
 
 				</section>
 
-				<!-- Videos -->
+				<!-- Videos 
 				<section class="grid colA">
 					<h4 class="widget-title">Videos</h4>
 
@@ -859,7 +869,7 @@ img#wpstats {
 				</section>
 
 
-				<!-- Google Maps -->
+				<!-- Google Maps 
 				<section id="sponsorBanner2" class="grid colA noBorderRight">
 					<h4 class="widget-title">Mapa</h4>
 					<div class="mapa border">
@@ -1069,16 +1079,16 @@ img#wpstats {
 
 
 
-				<!-- COMMENTS -->
+				<!-- COMMENTS
 
 				<div id="comentarios">
 					<a id="comment_button" class="verMas" href="">+</a>
 					<h3 id="comment_h3">¿ Nos ayudas a mejorar el spot ?</h3>
 
-					<!-- You can start editing here. -->
+					<!-- You can start editing here. 
 
 
-					<!-- If comments are open, but there are no comments. -->
+					<!-- If comments are open, but there are no comments.
 
 
 
@@ -1115,7 +1125,7 @@ img#wpstats {
 							</p>
 
 
-							<!--<p><small><strong>XHTML:</strong> Puedes usar estas etiquetas: <code>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;s&gt; &lt;strike&gt; &lt;strong&gt; </code></small></p>-->
+							<!--<p><small><strong>XHTML:</strong> Puedes usar estas etiquetas: <code>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;s&gt; &lt;strike&gt; &lt;strong&gt; </code></small></p>
 
 							<p>
 								<textarea name="comment" id="comment" cols="58" rows="10"
@@ -1173,7 +1183,7 @@ img#wpstats {
 
 
 
-			<!-- banner -->
+			<!-- banner 
 
 
 			<section id="sponsorBanner1" class="grid colA banner">
@@ -1184,7 +1194,7 @@ img#wpstats {
 				</a>
 
 
-				<!-- Ulimos Spots visitados -->
+				<!-- Ulimos Spots visitados
 
 				<div class="ultimos border">
 					<h3 class="widget-title">Ultimos spots visitados</h3>
@@ -1352,15 +1362,15 @@ img#wpstats {
 	</script>
 
 
-		<!-- compartir share imagen -->
-		<link rel="stylesheet" type="text/css"
+		<!-- compartir share imagen
+				<link rel="stylesheet" type="text/css"
 			href="./La Santa _ Surf Search Spot_files/shared_image.css">
 		<script> 							 
 	    var identity = 568; 			var type   	= 'album';
 			var entity 	= 3; //Entidad de la foto spot=3 rider=4 sponsor=5								
 	</script>
 
-		<!-- Arrastras foto3 -->
+		<!-- Arrastras foto3 
 
 		<link rel="stylesheet" type="text/css"
 			href="./La Santa _ Surf Search Spot_files/shared_image(1).css">
@@ -1425,7 +1435,7 @@ img#wpstats {
 
 		</div>
 
-		<!--Fin Arrastras foto-->
+		<!--Fin Arrastras foto
 
 		<script type="text/javascript"
 			src="./La Santa _ Surf Search Spot_files/shared_image.js"></script>
@@ -1663,7 +1673,7 @@ if ( !!window.SLB && SLB.has_child('View.extend_theme') ) { SLB.View.extend_them
 		<div style="clear: both;"></div>
 	</div>
 	<img src="./La Santa _ Surf Search Spot_files/g.gif" id="wpstats">
-	 <script>
+	<script>
 	 $('ul.tabs li:first').addClass('active');
 		$('.block div').hide();
 		$('.block div:first').show();

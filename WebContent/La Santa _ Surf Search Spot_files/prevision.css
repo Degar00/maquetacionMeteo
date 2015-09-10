@@ -222,10 +222,16 @@
 	background-color: #21759b;
 }
 
-
 .cnt_previ_detalle li:nth-child(even)>div:nth-child(odd) {
 	background-color: rgb(186, 186, 186) !important;
 }
+
 .cnt_previ_detalle li:nth-child(odd)>div:nth-child(odd) {
-	background-color: #9CD1E8; !important;
+	background-color: #9CD1E8;
+	!
+	important;
+}
+
+.prevision_tabs_content {
+	width: 100%;
 }

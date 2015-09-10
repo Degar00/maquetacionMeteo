@@ -1,10 +1,12 @@
 <h2 class="widget-title">Previsiones</h2>
 
 <div id="prevision_container">
-	<button>General</button>
-	<button>Franjas</button>
-	<button>Grafica</button>
-	<div id="prevision_general">
+	<div id="prevision_tabs">
+		<button data-target="prevision_general">General</button>
+		<button data-target="prevision_franjas">Franjas</button>
+		<button data-target="prevision_grafico">Grafico</button>
+	</div>
+	<div id="prevision_general" class="prevision_tabs_content">
 		<div id="prevision_cabecera" class="previ_cabecera">
 			<div id="previ_cabecera_sup">
 				<div id="txt_previ_hora">HORA</div>
@@ -1400,23 +1402,117 @@
 			</li>
 		</ul>
 	</div>
-	<div id="prevision_franjas"></div>
+	<div id="prevision_franjas" class="prevision_tabs_content"
+		style="display: none"></div>
+	<div id="prevision_grafico" class="prevision_tabs_content"
+		style="display: none">
 
-	<div id="prevision_grafico"></div>
+		<canvas id="grafico" width="100%" height="400px"></canvas>
+		<script>
+			var randomScalingFactor = function() {
+				return Math.round(Math.random() * 100)
+			};
+			var lineChartData = {
+				labels : [ "January", "February", "March", "April", "May",
+						"June", "July" ],
+				datasets : [
+						{
+							label : "My First dataset",
+							fillColor : "rgba(220,220,220,0.2)",
+							strokeColor : "rgba(220,220,220,1)",
+							pointColor : "rgba(220,220,220,1)",
+							pointStrokeColor : "#fff",
+							pointHighlightFill : "#fff",
+							pointHighlightStroke : "rgba(220,220,220,1)",
+							data : [ randomScalingFactor(),
+									randomScalingFactor(),
+									randomScalingFactor(),
+									randomScalingFactor(),
+									randomScalingFactor(),
+									randomScalingFactor(),
+									randomScalingFactor() ]
+						},
+						{
+							label : "My Second dataset",
+							fillColor : "rgba(151,187,205,0.2)",
+							strokeColor : "rgba(151,187,205,1)",
+							pointColor : "rgba(151,187,205,1)",
+							pointStrokeColor : "#fff",
+							pointHighlightFill : "#fff",
+							pointHighlightStroke : "rgba(151,187,205,1)",
+							data : [ randomScalingFactor(),
+									randomScalingFactor(),
+									randomScalingFactor(),
+									randomScalingFactor(),
+									randomScalingFactor(),
+									randomScalingFactor(),
+									randomScalingFactor() ]
+						} ]
 
-</div>
+			}
 
-<script>
-	$(".previ_expand").click(
-			function(event) {
-				$(event.target).closest("li").find(".previ_detalle").toggle(
-						"slow", function() {
-							// Animation complete.
+			window.onload = function() {
+				var ctx = document.getElementById("grafico").getContext("2d");
+				window.myLine = new Chart(ctx).Line(lineChartData, {
+					responsive : true
+				});
+			}
+		</script>
+		<!-- 		<div id="grafico" style="width: 100%; height: 400px"></div>
+ 		<script>
+			var json_data;
+			var graph_data = [];
+			const
+			HOUR = 7;
+
+			$.getJSON('prevision.json', function(data) {
+				console.info('json cargado con exito');
+
+				$.each(data['forecasts'], function(index, value) {
+					if (undefined != value['forecast'][HOUR]) {
+						graph_data.push({
+							d : value['day'],
+							s : value['forecast'][HOUR]['swell']['size']
 						});
+					}
+
+				});
+
+				new Morris.Area({
+					element : 'grafico',
+					data : graph_data,
+					xkey : 'd',
+					ykeys : [ 's' ],
+					labels : [ 'Olas' ],
+					resize: true,
+					padding : 10,
+					behaveLikeLine : true,
+					gridEnabled : false,
+					gridLineColor : '#DDD',
+					axes : true,
+					fillOpacity : .1,
+					lineColors : [ '#6EB0C3' ]
+				});
+
 			});
-</script>
+		</script> 
+</div> -->
 
+	</div>
+</div>
+	<script>
+		$(".previ_expand").click(
+				function(event) {
+					$(event.target).closest("li").find(".previ_detalle")
+							.toggle("slow", function() {
+								// Animation complete.
+							});
+				});
+		$("#prevision_tabs button").click(function(event) {
+			$(".prevision_tabs_content").hide();
+			$("#" + event.target.dataset.target).toggle("slow", function() {
+				// Animation complete.
+			});
 
-
-
-
+		});
+	</script>
