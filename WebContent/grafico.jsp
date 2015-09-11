@@ -18,7 +18,8 @@
 <script>
 
 	var json_data;
-	var graph_data = [];
+	var datos_olas = [];
+	var datos_temp = [];
 	const HOUR = 7;
 	
 	$.getJSON('<%=request.getContextPath()%>/ejemplos/plugins/prevision.json', function(data) {		
@@ -26,7 +27,8 @@
 		
 		$.each( data['forecasts'], function( index, value) {			
 			if ( undefined != value['forecast'][HOUR] ){					
-				graph_data.push( { d: value['day'], s: value['forecast'][HOUR]['swell']['size'] } );
+				datos_olas.push( { d: value['day'], s: value['forecast'][HOUR]['swell']['size'] } );
+				datos_temp.push( { d: value['day'], s: value['forecast'][HOUR]['weather']['temp'] } );
 			}	
 			
 		});

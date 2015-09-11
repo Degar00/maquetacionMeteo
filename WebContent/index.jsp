@@ -4,8 +4,8 @@
 <!--<![endif]-->
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link type="text/css" rel="stylesheet"
-	href="./La Santa _ Surf Search Spot_files/css">
+<!-- <link type="text/css" rel="stylesheet" -->
+<!-- 	href="./La Santa _ Surf Search Spot_files/css"> -->
 <style type="text/css">
 .gm-style .gm-style-cc span, .gm-style .gm-style-cc a, .gm-style .gm-style-mtc div
 	{
@@ -48,10 +48,9 @@
 	src="./La Santa _ Surf Search Spot_files/ga.js"></script>
 <script type="text/javascript" id="www-widgetapi-script"
 	src="./La Santa _ Surf Search Spot_files/www-widgetapi.js" async=""></script>
-<script src="./La Santa _ Surf Search Spot_files/jquery.js"
-	type="text/javascript"></script>
-<script src="./La Santa _ Surf Search Spot_files/common.js"
-	type="text/javascript"></script>
+
+<!-- <script src="./La Santa _ Surf Search Spot_files/common.js" 
+	type="text/javascript"></script>-->
 
 <script src="./La Santa _ Surf Search Spot_files/navigation.js"
 	type="text/javascript"></script>
@@ -59,8 +58,8 @@
 <!--[if lt IE 9]>
 <script src="https://www.surfsearchspot.com/wp-content/themes/surfSearchSpot/js/html5.js" type="text/javascript"></script>
 <![endif]-->
-<link href="./La Santa _ Surf Search Spot_files/css(1)" rel="stylesheet"
-	type="text/css">
+<!-- <link href="./La Santa _ Surf Search Spot_files/css(1)" rel="stylesheet" -->
+<!-- 	type="text/css"> -->
 <link href="./La Santa _ Surf Search Spot_files/style.css"
 	rel="stylesheet" type="text/css">
 
@@ -123,9 +122,9 @@ img.wp-smiley, img.emoji {
 <link rel="stylesheet" id="recent-facebook-posts-css-css"
 	href="./La Santa _ Surf Search Spot_files/default.min.css"
 	type="text/css" media="all">
-<link rel="stylesheet" id="twentytwelve-fonts-css"
-	href="./La Santa _ Surf Search Spot_files/css(2)" type="text/css"
-	media="all">
+<!-- <link rel="stylesheet" id="twentytwelve-fonts-css" -->
+<!-- 	href="./La Santa _ Surf Search Spot_files/css(2)" type="text/css" -->
+<!-- 	media="all"> -->
 <link rel="stylesheet" id="twentytwelve-style-css"
 	href="./La Santa _ Surf Search Spot_files/style(2).css" type="text/css"
 	media="all">
@@ -270,57 +269,56 @@ img#wpstats {
     var analyticsSnippet = 'enabled';
     var analyticsEventTracking = 'enabled';
 </script>
-<script type="text/javascript">
-	var _gaq = _gaq || [];
+<!-- <script type="text/javascript">
+// 	var _gaq = _gaq || [];
   
-	_gaq.push(['_setAccount', 'UA-33618519-1']);
-    _gaq.push(['_addDevId', 'i9k95']); // Google Analyticator App ID with Google
-	_gaq.push(['_trackPageview']);
+// 	_gaq.push(['_setAccount', 'UA-33618519-1']);
+//     _gaq.push(['_addDevId', 'i9k95']); // Google Analyticator App ID with Google
+// 	_gaq.push(['_trackPageview']);
 
-	(function() {
-		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	})();
-</script>
+// 	(function() {
+// 		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+// 		                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+// 		                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+// 	})();
+</script> -->
 <link rel="stylesheet" type="text/css" id="gravatar-card-css"
 	href="./La Santa _ Surf Search Spot_files/hovercard.css">
 <link rel="stylesheet" type="text/css" id="gravatar-card-services-css"
 	href="./La Santa _ Surf Search Spot_files/services.css">
 <link rel="stylesheet" type="text/css"
 	href="./La Santa _ Surf Search Spot_files/style(3).css">
-<link rel="stylesheet" type="text/css"
-	href="./La Santa _ Surf Search Spot_files/css(3)">
+<!-- <link rel="stylesheet" type="text/css" -->
+<!-- 	href="./La Santa _ Surf Search Spot_files/css(3)"> -->
 <link rel="stylesheet" type="text/css"
 	href="./La Santa _ Surf Search Spot_files/style(4).css">
 <link rel="stylesheet" type="text/css"
 	href="./La Santa _ Surf Search Spot_files/style(5).css">
-<script type="text/javascript" charset="UTF-8"
-	src="./La Santa _ Surf Search Spot_files/common(1).js"></script>
-<script type="text/javascript" charset="UTF-8"
-	src="./La Santa _ Surf Search Spot_files/map.js"></script>
-<script type="text/javascript" charset="UTF-8"
-	src="./La Santa _ Surf Search Spot_files/util.js"></script>
-<script type="text/javascript" charset="UTF-8"
-	src="./La Santa _ Surf Search Spot_files/marker.js"></script>
-<script type="text/javascript" charset="UTF-8"
-	src="./La Santa _ Surf Search Spot_files/onion.js"></script>
-<script type="text/javascript" charset="UTF-8"
-	src="./La Santa _ Surf Search Spot_files/stats.js"></script>
-<script type="text/javascript" charset="UTF-8"
-	src="./La Santa _ Surf Search Spot_files/controls.js"></script>
+<!-- <script type="text/javascript" charset="UTF-8"
+	src="./La Santa _ Surf Search Spot_files/common(1).js"></script> -->
+<!-- <script type="text/javascript" charset="UTF-8" -->
+<!-- 	src="./La Santa _ Surf Search Spot_files/map.js"></script> -->
+<!-- <script type="text/javascript" charset="UTF-8" -->
+<!-- 	src="./La Santa _ Surf Search Spot_files/util.js"></script> -->
+<!-- <script type="text/javascript" charset="UTF-8" -->
+<!-- 	src="./La Santa _ Surf Search Spot_files/marker.js"></script> -->
+<!-- <script type="text/javascript" charset="UTF-8" -->
+<!-- 	src="./La Santa _ Surf Search Spot_files/onion.js"></script> -->
+<!-- <script type="text/javascript" charset="UTF-8" -->
+<!-- 	src="./La Santa _ Surf Search Spot_files/stats.js"></script> -->
+<!-- <script type="text/javascript" charset="UTF-8" -->
+<!-- 	src="./La Santa _ Surf Search Spot_files/controls.js"></script> -->
 
 <link rel="stylesheet" type="text/css"
 	href="./La Santa _ Surf Search Spot_files/prevision.css">
 
-<script
-	src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 <script
 	src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.2/raphael-min.js"></script>
 <script src="js/morris.js-0.5.1/morris.js"></script>
 
 <link rel="stylesheet" href="js/morris.js-0.5.1/morris.css">
 <script src="js/Chart.js/Chart.js"></script>
+<script src="js/jquery-2.1.4.min.js"	type="text/javascript"></script>
 </head>
 
 <body
@@ -334,15 +332,15 @@ img#wpstats {
 		</a>
 		<h1>Surf Search Spot</h1>
 
-		<nav class="appStore">
-			<a href="http://goo.gl/AtXcoh" target="_blank"><img
-				src="./La Santa _ Surf Search Spot_files/app-store.png"
-				alt="descargar de la appStore"></a> <a href="http://goo.gl/DrUAHC"
-				target="_blank"> <img
-				src="./La Santa _ Surf Search Spot_files/android-store.png"
-				alt="descargar de google play">
-			</a>
-		</nav>
+<!-- 		<nav class="appStore"> -->
+<!-- 			<a href="http://goo.gl/AtXcoh" target="_blank"><img -->
+<!-- 				src="./La Santa _ Surf Search Spot_files/app-store.png" -->
+<!-- 				alt="descargar de la appStore"></a> <a href="http://goo.gl/DrUAHC" -->
+<!-- 				target="_blank"> <img -->
+<!-- 				src="./La Santa _ Surf Search Spot_files/android-store.png" -->
+<!-- 				alt="descargar de google play"> -->
+<!-- 			</a> -->
+<!-- 		</nav> -->
 
 		<nav class="socialShare">
 
@@ -609,9 +607,9 @@ img#wpstats {
 						<li><i alt="Twitter" title="Twitter"
 							class="theChampSharingButton theChampSharingTwitterButton"
 							onclick=" theChampPopup(&quot;http://twitter.com/intent/tweet?text=La+Santa&amp;url=https://www.surfsearchspot.com/spots/islas-canarias/lanzarote/la-santa/&quot;)"></i></li>
-						<li><i alt="Google Plus" title="Google Plus"
-							class="theChampSharingButton theChampSharingGoogleButton"
-							onclick=" theChampPopup(&quot;https://plus.google.com/share?url=https://www.surfsearchspot.com/spots/islas-canarias/lanzarote/la-santa/&quot;)"></i></li>
+<!-- 						<li><i alt="Google Plus" title="Google Plus" -->
+<!-- 							class="theChampSharingButton theChampSharingGoogleButton" -->
+<!-- 							onclick=" theChampPopup(&quot;https://plus.google.com/share?url=https://www.surfsearchspot.com/spots/islas-canarias/lanzarote/la-santa/&quot;)"></i></li> -->
 						<li><i alt="Linkedin" title="Linkedin"
 							class="theChampSharingButton theChampSharingLinkedinButton"
 							onclick=" theChampPopup(&quot;http://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.surfsearchspot.com/spots/islas-canarias/lanzarote/la-santa/&quot;)"></i></li>
@@ -1547,10 +1545,10 @@ img#wpstats {
 						<li id="menu-item-8120"
 							class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8120"><a
 							href="https://www.surfsearchspot.com/feed/">RSS</a></li>
-						<li id="menu-item-10776"
-							class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10776"><a
-							href="https://plus.google.com/114417712422556442613/posts">Google
-								Plus</a></li>
+<!-- 						<li id="menu-item-10776" -->
+<!-- 							class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10776"><a -->
+<!-- 							href="https://plus.google.com/114417712422556442613/posts">Google -->
+<!-- 								Plus</a></li> -->
 					</ul>
 				</div>
 			</nav>
@@ -1634,10 +1632,10 @@ var thickboxL10n = {"next":"Siguiente >","prev":"< Anterior","image":"Imagen","o
 		src="./La Santa _ Surf Search Spot_files/tag.ui.js"></script>
 	<script type="text/javascript"
 		src="./La Santa _ Surf Search Spot_files/handler.image.js"></script>
-	<script type="text/javascript" id="slb_footer">/* <![CDATA[ */if ( !!window.jQuery ) {(function($){$(document).ready(function(){if ( !!window.SLB && SLB.has_child('View.init') ) { SLB.View.init({"ui_autofit":true,"ui_animate":true,"slideshow_autostart":true,"slideshow_duration":"6","group_loop":true,"ui_overlay_opacity":"0.8","ui_title_default":false,"theme_default":"slb_black","ui_labels":{"loading":"Cargando","close":"Cerrar","nav_next":"Siguiente","nav_prev":"Anterior","slideshow_start":"Comenzar slideshow","slideshow_stop":"Stop slideshow","group_status":"Foto %current% de %total%"}}); }
-if ( !!window.SLB && SLB.has_child('View.assets') ) { {$.extend(SLB.View.assets, {"https:\/\/lh4.googleusercontent.com\/-VIUHq75IcsI\/VCpbOLnbN2I\/AAAAAAAAEOM\/eVgsigxiDRA\/w501-h283-no\/caleta-san-juan-vista-de-pajaro-desde-una-cueva.png":{"id":null,"_entries":[],"type":"image","source":"https:\/\/lh4.googleusercontent.com\/-VIUHq75IcsI\/VCpbOLnbN2I\/AAAAAAAAEOM\/eVgsigxiDRA\/w501-h283-no\/caleta-san-juan-vista-de-pajaro-desde-una-cueva.png","internal":false},"https:\/\/lh3.googleusercontent.com\/-mEu9OHkkqDE\/VCakeRdfTZI\/AAAAAAAAD9E\/Nuyp0D2pCwI\/SAN_VascoRibeiro_D2_Diaz_002.JPG":{"id":null,"_entries":[],"type":"image","source":"https:\/\/lh3.googleusercontent.com\/-mEu9OHkkqDE\/VCakeRdfTZI\/AAAAAAAAD9E\/Nuyp0D2pCwI\/SAN_VascoRibeiro_D2_Diaz_002.JPG","internal":false},"https:\/\/lh6.googleusercontent.com\/-jJtd6CrGcvo\/VCakc-Rg2qI\/AAAAAAAAD88\/uZYImcLkcCM\/SAN_MarcelaMachado_D2_Diaz_001.JPG":{"id":null,"_entries":[],"type":"image","source":"https:\/\/lh6.googleusercontent.com\/-jJtd6CrGcvo\/VCakc-Rg2qI\/AAAAAAAAD88\/uZYImcLkcCM\/SAN_MarcelaMachado_D2_Diaz_001.JPG","internal":false},"https:\/\/lh3.googleusercontent.com\/-mf8dFRs5X-4\/VCakXDq4qEI\/AAAAAAAAD80\/vV-OGYktKI0\/SAN_LuciaMarti%2525C3%2525B1o_D2_Diaz_002.JPG":{"id":null,"_entries":[],"type":"image","source":"https:\/\/lh3.googleusercontent.com\/-mf8dFRs5X-4\/VCakXDq4qEI\/AAAAAAAAD80\/vV-OGYktKI0\/SAN_LuciaMarti%2525C3%2525B1o_D2_Diaz_002.JPG","internal":false},"https:\/\/lh4.googleusercontent.com\/-0U0CeSZYdTg\/VCakQfOEHQI\/AAAAAAAAD8k\/MsU-EITPfw0\/SAN_LeonardoFioravanti_D2_Diaz_001.jpg":{"id":null,"_entries":[],"type":"image","source":"https:\/\/lh4.googleusercontent.com\/-0U0CeSZYdTg\/VCakQfOEHQI\/AAAAAAAAD8k\/MsU-EITPfw0\/SAN_LeonardoFioravanti_D2_Diaz_001.jpg","internal":false},"https:\/\/lh4.googleusercontent.com\/-AqPMjH2MzHc\/VCakU0J26hI\/AAAAAAAAD8s\/zTVLnQ6WHE8\/SAN_ArianneOchoa_D2_Diaz_001.JPG":{"id":null,"_entries":[],"type":"image","source":"https:\/\/lh4.googleusercontent.com\/-AqPMjH2MzHc\/VCakU0J26hI\/AAAAAAAAD8s\/zTVLnQ6WHE8\/SAN_ArianneOchoa_D2_Diaz_001.JPG","internal":false},"https:\/\/lh6.googleusercontent.com\/-rP1VLBN_e_I\/VCakJR9WvfI\/AAAAAAAAD8c\/gnmM8hJnRWU\/Natxo%252520Gonz%2525C3%2525A1lez1.jpg":{"id":null,"_entries":[],"type":"image","source":"https:\/\/lh6.googleusercontent.com\/-rP1VLBN_e_I\/VCakJR9WvfI\/AAAAAAAAD8c\/gnmM8hJnRWU\/Natxo%252520Gonz%2525C3%2525A1lez1.jpg","internal":false}});} }
-/* THM */
-if ( !!window.SLB && SLB.has_child('View.extend_theme') ) { SLB.View.extend_theme('slb_baseline',{"name":"Baseline","parent":"","styles":[{"handle":"base","uri":"https:\/\/www.surfsearchspot.com\/wp-content\/plugins\/simple-lightbox\/themes\/baseline\/css\/style.css","deps":[]}],"layout_raw":"<div class=\"slb_container\"><div class=\"slb_content\">{{item.content}}<div class=\"slb_nav\"><span class=\"slb_prev\">{{ui.nav_prev}}<\/span><span class=\"slb_next\">{{ui.nav_next}}<\/span><\/div><div class=\"slb_controls\"><span class=\"slb_close\">{{ui.close}}<\/span><span class=\"slb_slideshow\">{{ui.slideshow_control}}<\/span><\/div><div class=\"slb_loading\">{{ui.loading}}<\/div><\/div><div class=\"slb_details\"><div class=\"inner\"><div class=\"slb_data\"><div class=\"slb_data_content\"><span class=\"slb_data_title\">{{item.title}}<\/span><span class=\"slb_group_status\">{{ui.group_status}}<\/span><div class=\"slb_data_desc\">{{item.description}}<\/div><\/div><\/div><div class=\"slb_nav\"><span class=\"slb_prev\">{{ui.nav_prev}}<\/span><span class=\"slb_next\">{{ui.nav_next}}<\/span><\/div><\/div><\/div><\/div>"}); }if ( !!window.SLB && SLB.has_child('View.extend_theme') ) { SLB.View.extend_theme('slb_default',{"name":"Default (Light)","parent":"slb_baseline","styles":[{"handle":"font","uri":"https:\/\/fonts.googleapis.com\/css?family=Yanone+Kaffeesatz","deps":[]},{"handle":"base","uri":"https:\/\/www.surfsearchspot.com\/wp-content\/plugins\/simple-lightbox\/themes\/default\/css\/style.css","deps":[]}]}); }if ( !!window.SLB && SLB.has_child('View.extend_theme') ) { SLB.View.extend_theme('slb_black',{"name":"Default (Dark)","parent":"slb_default","styles":[{"handle":"base","uri":"https:\/\/www.surfsearchspot.com\/wp-content\/plugins\/simple-lightbox\/themes\/black\/css\/style.css","deps":[]}]}); }})})(jQuery);}/* ]]> */</script>
+<!-- 	<script type="text/javascript" id="slb_footer">/* <![CDATA[ */if ( !!window.jQuery ) {(function($){$(document).ready(function(){if ( !!window.SLB && SLB.has_child('View.init') ) { SLB.View.init({"ui_autofit":true,"ui_animate":true,"slideshow_autostart":true,"slideshow_duration":"6","group_loop":true,"ui_overlay_opacity":"0.8","ui_title_default":false,"theme_default":"slb_black","ui_labels":{"loading":"Cargando","close":"Cerrar","nav_next":"Siguiente","nav_prev":"Anterior","slideshow_start":"Comenzar slideshow","slideshow_stop":"Stop slideshow","group_status":"Foto %current% de %total%"}}); }
+// if ( !!window.SLB && SLB.has_child('View.assets') ) { {$.extend(SLB.View.assets, {"https:\/\/lh4.googleusercontent.com\/-VIUHq75IcsI\/VCpbOLnbN2I\/AAAAAAAAEOM\/eVgsigxiDRA\/w501-h283-no\/caleta-san-juan-vista-de-pajaro-desde-una-cueva.png":{"id":null,"_entries":[],"type":"image","source":"https:\/\/lh4.googleusercontent.com\/-VIUHq75IcsI\/VCpbOLnbN2I\/AAAAAAAAEOM\/eVgsigxiDRA\/w501-h283-no\/caleta-san-juan-vista-de-pajaro-desde-una-cueva.png","internal":false},"https:\/\/lh3.googleusercontent.com\/-mEu9OHkkqDE\/VCakeRdfTZI\/AAAAAAAAD9E\/Nuyp0D2pCwI\/SAN_VascoRibeiro_D2_Diaz_002.JPG":{"id":null,"_entries":[],"type":"image","source":"https:\/\/lh3.googleusercontent.com\/-mEu9OHkkqDE\/VCakeRdfTZI\/AAAAAAAAD9E\/Nuyp0D2pCwI\/SAN_VascoRibeiro_D2_Diaz_002.JPG","internal":false},"https:\/\/lh6.googleusercontent.com\/-jJtd6CrGcvo\/VCakc-Rg2qI\/AAAAAAAAD88\/uZYImcLkcCM\/SAN_MarcelaMachado_D2_Diaz_001.JPG":{"id":null,"_entries":[],"type":"image","source":"https:\/\/lh6.googleusercontent.com\/-jJtd6CrGcvo\/VCakc-Rg2qI\/AAAAAAAAD88\/uZYImcLkcCM\/SAN_MarcelaMachado_D2_Diaz_001.JPG","internal":false},"https:\/\/lh3.googleusercontent.com\/-mf8dFRs5X-4\/VCakXDq4qEI\/AAAAAAAAD80\/vV-OGYktKI0\/SAN_LuciaMarti%2525C3%2525B1o_D2_Diaz_002.JPG":{"id":null,"_entries":[],"type":"image","source":"https:\/\/lh3.googleusercontent.com\/-mf8dFRs5X-4\/VCakXDq4qEI\/AAAAAAAAD80\/vV-OGYktKI0\/SAN_LuciaMarti%2525C3%2525B1o_D2_Diaz_002.JPG","internal":false},"https:\/\/lh4.googleusercontent.com\/-0U0CeSZYdTg\/VCakQfOEHQI\/AAAAAAAAD8k\/MsU-EITPfw0\/SAN_LeonardoFioravanti_D2_Diaz_001.jpg":{"id":null,"_entries":[],"type":"image","source":"https:\/\/lh4.googleusercontent.com\/-0U0CeSZYdTg\/VCakQfOEHQI\/AAAAAAAAD8k\/MsU-EITPfw0\/SAN_LeonardoFioravanti_D2_Diaz_001.jpg","internal":false},"https:\/\/lh4.googleusercontent.com\/-AqPMjH2MzHc\/VCakU0J26hI\/AAAAAAAAD8s\/zTVLnQ6WHE8\/SAN_ArianneOchoa_D2_Diaz_001.JPG":{"id":null,"_entries":[],"type":"image","source":"https:\/\/lh4.googleusercontent.com\/-AqPMjH2MzHc\/VCakU0J26hI\/AAAAAAAAD8s\/zTVLnQ6WHE8\/SAN_ArianneOchoa_D2_Diaz_001.JPG","internal":false},"https:\/\/lh6.googleusercontent.com\/-rP1VLBN_e_I\/VCakJR9WvfI\/AAAAAAAAD8c\/gnmM8hJnRWU\/Natxo%252520Gonz%2525C3%2525A1lez1.jpg":{"id":null,"_entries":[],"type":"image","source":"https:\/\/lh6.googleusercontent.com\/-rP1VLBN_e_I\/VCakJR9WvfI\/AAAAAAAAD8c\/gnmM8hJnRWU\/Natxo%252520Gonz%2525C3%2525A1lez1.jpg","internal":false}});} }
+// /* THM */
+if ( !!window.SLB && SLB.has_child('View.extend_theme') ) { SLB.View.extend_theme('slb_baseline',{"name":"Baseline","parent":"","styles":[{"handle":"base","uri":"https:\/\/www.surfsearchspot.com\/wp-content\/plugins\/simple-lightbox\/themes\/baseline\/css\/style.css","deps":[]}],"layout_raw":"<div class=\"slb_container\"><div class=\"slb_content\">{{item.content}}<div class=\"slb_nav\"><span class=\"slb_prev\">{{ui.nav_prev}}<\/span><span class=\"slb_next\">{{ui.nav_next}}<\/span><\/div><div class=\"slb_controls\"><span class=\"slb_close\">{{ui.close}}<\/span><span class=\"slb_slideshow\">{{ui.slideshow_control}}<\/span><\/div><div class=\"slb_loading\">{{ui.loading}}<\/div><\/div><div class=\"slb_details\"><div class=\"inner\"><div class=\"slb_data\"><div class=\"slb_data_content\"><span class=\"slb_data_title\">{{item.title}}<\/span><span class=\"slb_group_status\">{{ui.group_status}}<\/span><div class=\"slb_data_desc\">{{item.description}}<\/div><\/div><\/div><div class=\"slb_nav\"><span class=\"slb_prev\">{{ui.nav_prev}}<\/span><span class=\"slb_next\">{{ui.nav_next}}<\/span><\/div><\/div><\/div><\/div>"}); }if ( !!window.SLB && SLB.has_child('View.extend_theme') ) { SLB.View.extend_theme('slb_default',{"name":"Default (Light)","parent":"slb_baseline","styles":[{"handle":"font","uri":"https:\/\/fonts.googleapis.com\/css?family=Yanone+Kaffeesatz","deps":[]},{"handle":"base","uri":"https:\/\/www.surfsearchspot.com\/wp-content\/plugins\/simple-lightbox\/themes\/default\/css\/style.css","deps":[]}]}); }if ( !!window.SLB && SLB.has_child('View.extend_theme') ) { SLB.View.extend_theme('slb_black',{"name":"Default (Dark)","parent":"slb_default","styles":[{"handle":"base","uri":"https:\/\/www.surfsearchspot.com\/wp-content\/plugins\/simple-lightbox\/themes\/black\/css\/style.css","deps":[]}]}); }})})(jQuery);}/* ]]> */</script> -->
 	<script type="text/javascript" id="slb_context">/* <![CDATA[ */if ( !!window.jQuery ) {(function($){$(document).ready(function(){if ( !!window.SLB ) { {$.extend(SLB, {"context":["public","user_guest"]});} }})})(jQuery);}/* ]]> */</script>
 	<script type="text/javascript"
 		src="./La Santa _ Surf Search Spot_files/e-201526.js" async=""
